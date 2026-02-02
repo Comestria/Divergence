@@ -1,0 +1,15 @@
+; global scope
+08B61A78 SkillIcons
+08B42B74 ASMC_Draw
+08B2A740 MagCharTable
+08B2A940 MagClassTable
+08BA14ED RefreshItemsASMC
+08BA16CD GetItemAfterUse
+08BA172D BattleGenerateRoundHits
+08BA17C1 ZeroDurabilityWeaponUsability
+08BA17DD DrawItemStatScreenLine
+08BA18F1 DrawItemMenuLine
+08BA19C9 DrawItemMenuLineLong
+08BA1AD1 DrawItemMenuLineNoColor
+08BA1B6C ConvoySize_Link
+08BA1B70 PerChapterItemsList
