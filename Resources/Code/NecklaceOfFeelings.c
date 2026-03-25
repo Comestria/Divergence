@@ -1,19 +1,19 @@
 #include "C_Code.h"
 
-extern u16 CathID;
+extern u16 LauraID;
 extern u16 ArtyID;
 extern u8 NecklaceItemID;
 
 void NecklaceOfFeelings(struct BattleUnit *gBattleActor, struct BattleUnit *gBattleTarget){
 
-    struct Unit *CathUnitPtr = GetUnitStructFromEventParameter(CathID);
+    struct Unit *LauraUnitPtr = GetUnitStructFromEventParameter(LauraID);
     struct Unit *ArtyUnitPtr = GetUnitStructFromEventParameter(ArtyID);
 
     //validate battle unit
     bool gBattleActorIsCath = FALSE;
     bool gBattleActorIsArty = FALSE;
 
-    if (gBattleActor->unit.pCharacterData == CathUnitPtr->pCharacterData){
+    if (gBattleActor->unit.pCharacterData == LauraUnitPtr->pCharacterData){
         gBattleActorIsCath = TRUE;
     }
 
@@ -31,7 +31,7 @@ void NecklaceOfFeelings(struct BattleUnit *gBattleActor, struct BattleUnit *gBat
     int i;
 
     for (i = 0; i < 5; i++){
-        if ((CathUnitPtr->items[i] & 0xFF) == NecklaceItemID){
+        if ((LauraUnitPtr->items[i] & 0xFF) == NecklaceItemID){
             CathHasNecklace = TRUE;
         }
     }
@@ -61,7 +61,7 @@ void NecklaceOfFeelings(struct BattleUnit *gBattleActor, struct BattleUnit *gBat
             }
         }
         else {
-            if (CathUnitPtr->state & US_UNSELECTABLE){
+            if (LauraUnitPtr->state & US_UNSELECTABLE){
                 gBattleActor->battleAttack += 10;
             }
         }
@@ -75,7 +75,7 @@ void NecklaceOfFeelings(struct BattleUnit *gBattleActor, struct BattleUnit *gBat
         distance = RECT_DISTANCE(gBattleActor->unit.xPos, gBattleActor->unit.yPos, ArtyUnitPtr->xPos, ArtyUnitPtr->yPos);
     }
     else {
-        distance = RECT_DISTANCE(gBattleActor->unit.xPos, gBattleActor->unit.yPos, CathUnitPtr->xPos, CathUnitPtr->yPos);
+        distance = RECT_DISTANCE(gBattleActor->unit.xPos, gBattleActor->unit.yPos, LauraUnitPtr->xPos, LauraUnitPtr->yPos);
     }
 
     if (distance <= 3){

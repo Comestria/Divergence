@@ -253,7 +253,7 @@ Strategist, Tactician - Devisian_Knights
 Reika Anims - Repal
 Warmaiden (Lance) - Pushwall
 Ritualist - Melia
-Thug - MonkeyBard
+Thug - DerTheVaporeon
 Divine Dragon - L95
 Battle Sage - St Jack
 Hunter - MeatOfJustice
@@ -349,7 +349,7 @@ Shenmue: Nightfall, Shenhua, Land of Eternity - Pandan
 Pokemon Ranger Guardian Signs: Legendary Pokemon - Uncredited on the repository
 FE12 Theme of Love, Dark Emperor Hardin / FE11 A Hero Falls, Gotoh, White Sage / FE17 Fallen Petals / FE6 Arena Battle Remix / Riviera Battle Against Demons / OT Daughter of the Dark God - HunterAurzo
 SaGa Frontier II: Feldschlact III - SaXor the Nobody
-Castlevania DoS Cursed Clock Tower, The Pinnacle / Pokemon Mystery Dungeon Explorers of Sky - Time Gear / Zelda Spirit Tracks Demon Train, Malladus Phase 3 /
+Castlevania DoS Cursed Clock Tower / Pokemon Mystery Dungeon Explorers of Sky - Time Gear / Zelda Spirit Tracks Demon Train, Malladus Phase 3 /
 Castlevania OoE Clashing of Waves, Rhapsody of the Forsaken / EPF 4 Elfin - TrikkiNikki
 Crimson Ridge - nyawenyye
 FE5 Defeat is Near - Haiboku Chikashi
@@ -363,6 +363,7 @@ LoZ Twilight Princess: Midna's Lament - MysteriousDancer
 Zero Escape Morphogenetic Sorrow / Epic Battle Fantasy 5 Those of Us Who Blossom - Tak
 Riviera Heaven's Gate - Pimin 1211
 Lufia 2 The Savior of Those on Earth - Cynon
+FE7 Dragon's Gate II, Shadow Approaches - ArcherBias
 
 Plok Boss / SMT 3 Nocturne: Big Map / Guilty Gear X2: Good Manners and Customs / Super R Type: Return of the Creature / Lagoon: Desperate Dreams /
 Kingdom Hearts II: Sinister Shadows / Super Robot Wars: Arrow of Destiny / TRS: Knights of Razelia / Digital Devil Saga 2: Divine Identity /
@@ -389,7 +390,7 @@ Send unit's items on death - Contro
 Auto-repair weapons - Retina
 Neutral Army - ultrax (Unable to cross greens) & ditto (Unable to attack or be attacked greens)
 
-Remove Negative Stats on Weapons, KillSealSkills, AuroreSupportGains, NecklaceOfFeelings, AircaliburFix, Canto+ Fix, Provoke Fix, Limbo's alternative description - ditto
+Remove Negative Stats on Weapons, KillSealSkills, AuroreSupportGains, NecklaceOfFeelings, AircaliburFix, Canto+ Fix, Provoke Fix, Limbo's alternative description, Popomi, Shining Beacon Skill, GetItemDurabilityASMC - ditto
 
 SkillSystems -
 Circleseverywhere

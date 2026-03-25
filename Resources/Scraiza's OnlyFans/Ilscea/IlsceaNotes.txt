@@ -1,0 +1,59 @@
+To get GodStat working, you have to do the following:
+
+GodStat:
+Mouth 7X 4Y
+Eye 11X 1Y
+State: CloseEye
+Mug Exceed: 1
+Tile 1 10X 1Y
+Tile 2 10X 3Y
+
+To get God3Mugs working, you have to do the following:
+
+Mug1 needs to be loaded closest to the center,
+Mug 3 furthest from it, and 2 in the middle
+
+God3Mugs1:
+Mouth 3X 4Y
+Eye 3X 2Y
+State: Normal
+Mug Exceed: 1
+Tile 1 0X 0Y
+Tile 2 0X 2Y
+
+God3Mugs2:
+Mouth 255X 254Y
+Eye 1X 0Y
+State: Close Eye
+Mug Exceed: 1
+Tile 1 3X 254Y
+Tile 2 0X 254Y
+
+God3Mugs3
+Mouth 0X 0Y
+Eye 4X 3Y
+State: Normal
+Mug Exceed: 1
+Tile 1: 4X 254Y
+Tile 2: 6X 254Y
+
+To get God32ugs working, you have to do the following:
+
+Mug1 needs to be loaded closest to the center,
+Mug 2 furthest from it.
+
+God2Mugs1:
+Mouth 4X 4Y
+Eye 4X 2Y
+State: Normal
+Mug Exceed: 1
+Tile 1 3X 254Y
+Tile 2 5X 254Y
+
+God2Mugs2:
+Mouth 6X 254Y
+Eye 8X 254Y
+State: Close Eye
+Mug Exceed: 1
+Tile 1 2X 254Y
+Tile 2 4X 254Y

@@ -1,0 +1,62 @@
+#include "Extensions/Hack Installation.txt"
+#define ThumbFunc(label) "ALIGN 4; PUSH; ORG CURRENTOFFSET+1; label: POP"
+#define AffinityGetter 0xBA1C35
+
+PUSH
+
+ORG 0xE48A2E
+SHORT 0x1C08 // mov r3, r1 -> mov r0, r1
+BL(AffinityGetter_Hyper_r3)
+
+ORG 0xE48AFA
+BL(AffinityGetter_Hyper_r0)
+
+ORG 0xE48BAA
+BL(AffinityGetter_Hyper_r0)
+
+ORG 0xE48BF0
+BL(AffinityGetter_Hyper_r0)
+
+ORG 0xE48C2C
+BL(AffinityGetter_Hyper_r0)
+
+ORG 0xE48C82
+BL(AffinityGetter_Hyper_r0)
+
+ORG 0xE48F9C
+SHORT 0x6808 // ldr r1, [r1] -> ldr r0, [r1]
+BL(AffinityGetter_Hyper_r1)
+
+ORG 0xE490BC
+BL(AffinityGetter_Hyper_r0)
+
+ORG 0xE490CE
+BL(AffinityGetter_Hyper_r0)
+
+POP
+
+ThumbFunc(AffinityGetter_Hyper_r0)
+SHORT 0xB50F // push {r0, r1, r2, r3, r14}
+SHORT 0x4660 // mov r0, r12
+SHORT 0xB401 // push {r0}
+
+SHORT 0x4B07 // ldr r3, AffinityGetter
+SHORT 0xF000 0xF803 // bl bx_r3
+
+SHORT 0xBC01 // pop {r0}
+SHORT 0x4684 // mov r12, r0
+SHORT 0xBD0F // pop {r0, r1, r2, r3, r15}
+
+SHORT 0x4718 // bx_r3: bx r3
+
+ThumbFunc(AffinityGetter_Hyper_r3)
+BL(AffinityGetter_Hyper_r0)
+SHORT 0x1C03 // mov r3, r0
+SHORT 0x4770 // bx r14
+
+ThumbFunc(AffinityGetter_Hyper_r1)
+BL(AffinityGetter_Hyper_r0)
+SHORT 0x1C01 // mov r1, r0
+SHORT 0x4770 // bx r14
+
+POIN AffinityGetter

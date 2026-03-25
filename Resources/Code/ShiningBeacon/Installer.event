@@ -1,0 +1,122 @@
+/*
+	Shining Beacon skill
+	For "Divergence"
+	By ditto
+*/
+
+#define FreeSpaceBLRange 0x1C201C
+#define SkillTester 0xB60925
+#define BS_TextTable 0x09106174
+#define SetText(id, ptr) "PUSH; ORG BS_TextTable+id*4; POIN (ptr | 0x80000000); POP"
+
+#include "AffinityGetter/AffinityGetter.event"
+
+#include "ShiningBeacon.lyn.event"
+
+SetText(0x11A1, ShiningBeacon_MenuItemName)
+SetText(0x11A2, ShiningBeacon_MenuItemHelp)
+SetText(0x1195, ShiningBeacon_FireName)
+SetText(0x1196, ShiningBeacon_FireHelp)
+SetText(0x1197, ShiningBeacon_WindName)
+SetText(0x1198, ShiningBeacon_WindHelp)
+SetText(0x1199, ShiningBeacon_IceName)
+SetText(0x119A, ShiningBeacon_IceHelp)
+SetText(0x119B, ShiningBeacon_DarkName)
+SetText(0x119C, ShiningBeacon_DarkHelp)
+SetText(0x119D, ShiningBeacon_LightName)
+SetText(0x119E, ShiningBeacon_LightHelp)
+SetText(0x119F, ShiningBeacon_AnimaName)
+SetText(0x11A0, ShiningBeacon_AnimaHelp)
+SetText(0x11A3, ShiningBeacon_SubtitleText)
+
+ALIGN 4; ShiningBeaconText:
+#incbin "Text.bin"
+
+PUSH
+ORG ShiningBeaconText+0x00; ShiningBeacon_MenuItemName:
+ORG ShiningBeaconText+0x08; ShiningBeacon_MenuItemHelp:
+ORG ShiningBeaconText+0x18; ShiningBeacon_FireName:
+ORG ShiningBeaconText+0x20; ShiningBeacon_FireHelp:
+ORG ShiningBeaconText+0x2C; ShiningBeacon_WindName:
+ORG ShiningBeaconText+0x34; ShiningBeacon_WindHelp:
+ORG ShiningBeaconText+0x40; ShiningBeacon_IceName:
+ORG ShiningBeaconText+0x48; ShiningBeacon_IceHelp:
+ORG ShiningBeaconText+0x50; ShiningBeacon_DarkName:
+ORG ShiningBeaconText+0x58; ShiningBeacon_DarkHelp:
+ORG ShiningBeaconText+0x64; ShiningBeacon_LightName:
+ORG ShiningBeaconText+0x6C; ShiningBeacon_LightHelp:
+ORG ShiningBeaconText+0x78; ShiningBeacon_AnimaName:
+ORG ShiningBeaconText+0x80; ShiningBeacon_AnimaHelp:
+ORG ShiningBeaconText+0x8C; ShiningBeacon_SubtitleText:
+
+// Inserting into the unit action menu
+ORG 0xB824B0
+SHORT 0x11A1 0x11A2
+ORG 0xB824B8
+POIN ShiningBeaconUsability|1
+ORG 0xB824C0
+POIN ShiningBeaconEffect|1
+POP
+
+ALIGN 4
+
+ShiningBeaconEvent:
+ASMC ShiningBeaconCallMenu|1
+EVBIT_T 7; ENDA
+
+ShiningBeaconMenuDef:
+BYTE 9 3 10 0 // x, y, width, 0
+WORD 1 // style
+POIN ShiningBeaconMenuItems
+WORD 0 0 0 0
+POIN 0x4F521 0x4F459 // R press, Helpbox
+
+ShiningBeaconMenuItems:
+WORD 1
+SHORT 0x1195 0x1196 0 0
+POIN 0x4F449 // Always enabled
+WORD ShiningBeaconMenuDraw|1
+POIN ShiningBeaconMenuEffect|1
+WORD 0 0 0
+
+WORD 3
+SHORT 0x1197 0x1198 0 0
+POIN 0x4F449 // Always enabled
+WORD ShiningBeaconMenuDraw|1
+POIN ShiningBeaconMenuEffect|1
+WORD 0 0 0
+
+WORD 4
+SHORT 0x1199 0x119A 0 0
+POIN 0x4F449 // Always enabled
+WORD ShiningBeaconMenuDraw|1
+POIN ShiningBeaconMenuEffect|1
+WORD 0 0 0
+
+WORD 5
+SHORT 0x119B 0x119C 0 0
+POIN 0x4F449 // Always enabled
+WORD ShiningBeaconMenuDraw|1
+POIN ShiningBeaconMenuEffect|1
+WORD 0 0 0
+
+WORD 6
+SHORT 0x119D 0x119E 0 0
+POIN 0x4F449 // Always enabled
+WORD ShiningBeaconMenuDraw|1
+POIN ShiningBeaconMenuEffect|1
+WORD 0 0 0
+
+WORD 7
+SHORT 0x119F 0x11A0 0 0
+POIN 0x4F449 // Always enabled
+WORD ShiningBeaconMenuDraw|1
+POIN ShiningBeaconMenuEffect|1
+WORD 0 0 0
+
+WORD 0
+SHORT 0 0 0 0
+WORD 0
+WORD 0
+WORD 0
+WORD 0 0 0
