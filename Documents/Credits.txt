@@ -35,6 +35,7 @@ Sumika - Commission by Scraiza
 Suguri (46B) - Commission by Scraiza
 Hime - Commission by Scraiza
 Star Breaker - Commission by Scraiza
+Rozette & Elizabeth - Commissions by Scraiza
 Lulu & Alicianrone - Gifts by Scraiza
 
 Cecilia - RedBean
@@ -75,13 +76,12 @@ Rosso - Garytop
 Dreyjan, Bolvir, Dorjar - RandomWizard
 Tarema, Lancelot - Matthieu
 Esmeralda, Edolina - Kanna
-??? - MemeStarAlbert
+Cid - MemeStarAlbert
 Lerne, Hendrik - LaurentLacroix
 Gauvain - Nuramon
 Santo - RandomWizard
 Drin - LaurentLacroix
 Larry - Yasako
-Kishuna (FE8 Colors) - Eldritch Abomination
 Elyes - RandomWizard
 Alesia - Zeldacrafter
 Borveg - LaurentLacroix
@@ -99,6 +99,7 @@ Ruben - SaintRubenio
 Cedric - CanDy
 Bramon - SacredStones
 Ranald - LaurentLacroix, UltraFenix, monk-han
+Time Dragon - L95
 
 ### Miscellaneous & Skills
 Map Ch11 Upper Part, Ch16R, Paralogue 2 - Aura Wolf
@@ -202,8 +203,10 @@ Spellsword - topazlight
 Thug - Rasdel
 General/Baron - Scraiza
 Magiquiver - MeatOfJustice
-Arrowcaster - ArcherBias
+Spellranger - ArcherBias
 Time Dragon - L95
+Minotaur - Alexplode
+Portal - Hanakko
 
 
 ### Battle Animations
@@ -229,8 +232,7 @@ Halberdier (F) → Aureli's unique animation - Black Mage
 Male Thief - GabrielKnight
 Wyvern Rider Axe/Handaxe - Mikey Seregon, Alfred Kamon
 Female Mercenary (Lorelei) - TheBlindArcher, Knabepicer
-Guinivere Animations - Aruka
-Berserker F / Nomad - Repal
+Berserker F - Repal
 Necromancer (Umbral Scholar) - Tythebub
 Scholar / Arcane Scholar - MrNight48
 Light Mage (F) - Teraspark
@@ -258,6 +260,7 @@ Divine Dragon - L95
 Battle Sage - St Jack
 Hunter - MeatOfJustice
 Mage (Character) Custom Anims by RetroGamer
+Project F.C. - Amyd, Merpin
 
 
 ### Spell Animations
@@ -274,6 +277,8 @@ Corruption - Orihara_Saki
 Sagittae - HyperGammaGames
 Sword Wave - lovemachine, Mikey Seregon
 Chronostone - SHYUTERz, HIROTO
+Exordium - Arch
+Earthstrike - Norikins
 
 ### Items
 Silver Sword / Fiery Sword / Steel / Silver Blade / Killing Edge / Brave Lance / Silver Axe / Timeless Axe / Short Bow / Recover / Restore / Warp / Eclipse / Lumine's Bolt / Iron / Steel / Silver Greatlance / Arcwind / Arcfire / Wing Lance / Etherbane Edge / Keepsake Blade / Immolation / Corruption / Supreme Sword / Supreme Lance / Eftirlit / Truthfire / Limbo - LordGlenn
@@ -334,20 +339,20 @@ Langrisser: Shop / Pokemon MD Rescue Team: Mount Thunder PMD Explorers of Sky: S
 Pokemon Black, White: Embracing One's Duty / EO3 The First Campaign, Chalky Woods - Thegis
 Castlevania Order of Ecclesia: Lament To The Master / Castlevania II Simon's Quest: Bloody Tears / FE15 Twilight of the Gods /
 At the Bottom of Night / Romance of the Three Kingdoms IV - Field Battle - Sme
-FFT Decisive Battle / Ogre Battle 64: Notice of Death / Ogre Battle PS1: Thunder / Etrian Odyssey 2: Heaven's Rock Seat, Forbidden Forest / Egbert - Alusq
+FFT Decisive Battle / Ogre Battle 64: Notice of Death / Ogre Battle PS1: Thunder / Etrian Odyssey 2: Heaven's Rock Seat, Forbidden Forest, Cavern of Splendor / Egbert - Alusq
 FFTA Pub Theme / FF5 Nostalgia - A Reliable Chair
 Castlevania Order of Ecclesia - An Empty Tome Stage ; Stones Hold a Grudge ; Sorrow's Distortion / PMD EoS Power of Darkness / FF5 Sealed Away / 
 Valkyrie Profile: Oblivion's Joy, Sublime Domain / Etrian Odyssey 3 Those Who Slay and Fall - Psyche
 F-Zero GP: Lightning - Pandan
 Rudrano Hihou: Strange Encounters / Renegade Level 2 - DerTheVaporeon
-FE12 Vs. Hardin / FE16 Paths That Will Never Cross - Azula
-FE4: Emperor Arvis, Neutral Army, Allied Army / Persona 3 FES Heartful Cry / M&L BIS The Grand Finale / Chrono Trigger Boss Battle 1 / DELTARUNE Hammer of Justice / FE3 Medeus, Shadow Dragon / Deltarune Guardian, Bmlack / Metroid Prime Phendrana Drifts - SurfingKyogre
+FE12 Vs. Hardin / Undertale Here we Are, An Ending - Azula
+FE4: Emperor Arvis, Neutral Army, Allied Army / Persona 3 FES Heartful Cry / M&L BIS The Grand Finale / Chrono Trigger Boss Battle 1 / DELTARUNE Hammer of Justice, SWORD, Rude Buster / FE3 Medeus, Shadow Dragon / Deltarune Guardian, Bmlack / Metroid Prime Phendrana Drifts / RS2 Avalon, Seat of the Empire / Suikoden-Gregminster Theme / Cave Story Moonsong / FE16 Paths that Will Never Cross / M&L Bowser's Inside Story The Grand Finale - SurfingKyogre
 Faraway Voyage of 380.000 Kilometers - ZoraminaeFae
 FE4: When the Rush Comes - DrGreen3339
 Pokemon MD Explorers of Time+Space+Sky: Dialga's Fight to the Finish - GratedShtick
 Shenmue: Nightfall, Shenhua, Land of Eternity - Pandan
 Pokemon Ranger Guardian Signs: Legendary Pokemon - Uncredited on the repository
-FE12 Theme of Love, Dark Emperor Hardin / FE11 A Hero Falls, Gotoh, White Sage / FE17 Fallen Petals / FE6 Arena Battle Remix / Riviera Battle Against Demons / OT Daughter of the Dark God - HunterAurzo
+FE12 Theme of Love, Dark Emperor Hardin / FE11 A Hero Falls, Gotoh, White Sage / FE17 Fallen Petals / FE6 Arena Battle Remix / Riviera Battle Against Demons / OT Daughter of the Dark God / Heroes of Mana Tense Movement - HunterAurzo
 SaGa Frontier II: Feldschlact III - SaXor the Nobody
 Castlevania DoS Cursed Clock Tower / Pokemon Mystery Dungeon Explorers of Sky - Time Gear / Zelda Spirit Tracks Demon Train, Malladus Phase 3 /
 Castlevania OoE Clashing of Waves, Rhapsody of the Forsaken / EPF 4 Elfin - TrikkiNikki
@@ -364,6 +369,7 @@ Zero Escape Morphogenetic Sorrow / Epic Battle Fantasy 5 Those of Us Who Blossom
 Riviera Heaven's Gate - Pimin 1211
 Lufia 2 The Savior of Those on Earth - Cynon
 FE7 Dragon's Gate II, Shadow Approaches - ArcherBias
+Corpse Party BGM7 - 7743
 
 Plok Boss / SMT 3 Nocturne: Big Map / Guilty Gear X2: Good Manners and Customs / Super R Type: Return of the Creature / Lagoon: Desperate Dreams /
 Kingdom Hearts II: Sinister Shadows / Super Robot Wars: Arrow of Destiny / TRS: Knights of Razelia / Digital Devil Saga 2: Divine Identity /
@@ -389,6 +395,7 @@ Prevent uncounterable items from becoming forced range animations - vennou
 Send unit's items on death - Contro
 Auto-repair weapons - Retina
 Neutral Army - ultrax (Unable to cross greens) & ditto (Unable to attack or be attacked greens)
+DynamicTextSwap - ditto
 
 Remove Negative Stats on Weapons, KillSealSkills, AuroreSupportGains, NecklaceOfFeelings, AircaliburFix, Canto+ Fix, Provoke Fix, Limbo's alternative description, Popomi, Shining Beacon Skill, GetItemDurabilityASMC - ditto
 

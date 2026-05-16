@@ -1,0 +1,6 @@
+; global scope
+08B61A78 SkillIcons
+08B42B74 ASMC_Draw
+08B2A740 MagCharTable
+08B2A940 MagClassTable
+08BA390C NewWTypeTextIDList
