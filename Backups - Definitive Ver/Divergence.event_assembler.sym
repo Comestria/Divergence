@@ -1,0 +1,7 @@
+; global scope
+08B61A78 SkillIcons
+08B42B74 ASMC_Draw
+08B2A740 MagCharTable
+08B2A940 MagClassTable
+; local scope 1
+08D0D244 $1$MMPFix

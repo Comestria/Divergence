@@ -16,12 +16,8 @@ Céleste - Commission by Scraiza
 Laëticia - Commission by Scraiza
 Artémisia - Commission by Scraiza
 Lisri - Commission by Scraiza
-Krul - Commission by Scraiza
-Nandil - Commission by Scraiza
 Rose - Commission by Scraiza
 Melchior - Commission by Scraiza
-Older Roy - Commission by Scraiza
-Older Lilina - Commission by Scraiza
 Laura - Scraiza
 Older Héloïse - Commission by Scraiza
 Héloïse - Scraiza
@@ -35,11 +31,12 @@ Sumika - Commission by Scraiza
 Suguri (46B) - Commission by Scraiza
 Hime - Commission by Scraiza
 Star Breaker - Commission by Scraiza
+Kanata - Commission by Scraiza
+Sagi - Commission by Scraiza
 Rozette & Elizabeth - Commissions by Scraiza
 Lulu & Alicianrone - Gifts by Scraiza
 
-Cecilia - RedBean
-Aline, Xalvador, Frank, Eliot - LaurentLacroix
+Aline, Xalvador, Frank - LaurentLacroix
 Albree - LaurentLacroix, Levin 64
 Tristan - LaurentLacroix
 Rolph - LaurentLacroix
@@ -72,6 +69,7 @@ Leon - XVI
 Samaël - Melia
 Theoria - Xenith
 Rosso - Garytop
+Tiki - BatimaTheBat
 
 Dreyjan, Bolvir, Dorjar - RandomWizard
 Tarema, Lancelot - Matthieu
@@ -127,7 +125,7 @@ Archer (F) / Myrmidon (F) / Swordmaster (F) / Thief (F) / Sage (F) / Bishop (F) 
 Sniper (F) - flasuban, L95
 Ballistician (U) - Aruka, Yggdra
 Soldier (M, F) / Fighter (M) / Wyvern Rider (F) / Wyvern Lord (M) / Mage Armor / Sword Pegasus - flasuban
-Halberdier / Troubadour - TBA
+Halberdier - TBA
 Mercenary (M) - Rasdel
 Hero (M) - IS, SamirPlayz
 Hero (F) - RobertFPY, SamirPlayz
@@ -157,6 +155,10 @@ Tactician - Jj09
 Strategist - N426, Aruka, Yggdra
 Private - MeatofJustice
 Time Dragon - L95
+Bow Paladin - Leif
+Limia - N426
+Living Armor - Sphealnuke
+Troubadour - UltraFenix
 
 ### Map Sprites
 Celindra - ArcherBias
@@ -179,6 +181,7 @@ Druid - Rasdel
 Mages - Ash3wl, L95, Dominus_Vobiscum
 Lost - CanDy
 Fighters - Alusq
+Snipers - ArcherBias
 Ballisticians - Pushwall
 Julia's Mage Animations - L95
 Mercenary (F) - Agro
@@ -205,16 +208,20 @@ General/Baron - Scraiza
 Magiquiver - MeatOfJustice
 Spellranger - ArcherBias
 Time Dragon - L95
-Minotaur - Alexplode
+Minotaur, Djinn - Alexplode
 Portal - Hanakko
+Crusader - SALVAGED
+Limia - ZoramineFae
+Living Armor - Sphealnuke, topazlight
 
 
 ### Battle Animations
 Celindra / Ephraim F + Weapons - Base IS ; DerTheVaporeon, Pikmin1211, ZoramineFae (Sword/Staff) → Fixed Staff : Permafrost
-Reinfred / FE15 Style Myrmidon / Wyvern Lord / Tristan Battle Anims / Hero (M/F) Animations / Soldier / Mage Armor / Albree's Anims / Spear Champion - Nuramon
+Reinfred / FE15 Style Myrmidon / Wyvern Lord / Tristan Battle Anims / Hero (M/F) Animations / Soldier / Mage Armor / Melchior Animations - Nuramon
 Thieves / Roy Anims (Great Lord) - Pikmin
 Cavaliers & Paladins, Mercs - SALVAGED
 Ashley (Nino Light Mage) - Mikey Séregon
+Crusader - DerTheVaporeon
 Generals - Leo_link, Nuramon, Iscaneus, The_Big_Dededester, Sax Marine, DerTheVaporeon
 Pegasus Knight - OreoStyx, MK404, MakeFEGayer
 Trueblade - Redbean, Jj09
@@ -259,9 +266,12 @@ Thug - DerTheVaporeon
 Divine Dragon - L95
 Battle Sage - St Jack
 Hunter - MeatOfJustice
-Mage (Character) Custom Anims by RetroGamer
+Mage (Character) Custom Anims by RetroGamer (Anima) & ReRoMastah (Staff)
 Project F.C. - Amyd, Merpin
-
+Bishops - ADxamas
+Mage - GabrielKnight (M) & Solum (F)
+Sage (F) - L95
+Cleric/Initiate by Eretein
 
 ### Spell Animations
 Abyssus Iudicium / Wind / Elwind / Bolganone / Immolation - Mikey Seregon
@@ -321,6 +331,7 @@ Shaded Bow - 2WB, Hanakko
 Laura's Ribbon - SMITHYGCN
 Blasting Light - SmithyGCN, Zarg
 Zweihander - VelvetKitsune, 2WB, Ereshkigal
+Lernaean - XVI
 
 ### Music
 100% Orange Juice: Suguri (46 Billion Years), Marc (Pilot) // QP Dangerous Shooting Sweet Breaker Phase 1 / Octopath Traveler 0 In Flames - Mycahel
@@ -346,7 +357,7 @@ Valkyrie Profile: Oblivion's Joy, Sublime Domain / Etrian Odyssey 3 Those Who Sl
 F-Zero GP: Lightning - Pandan
 Rudrano Hihou: Strange Encounters / Renegade Level 2 - DerTheVaporeon
 FE12 Vs. Hardin / Undertale Here we Are, An Ending - Azula
-FE4: Emperor Arvis, Neutral Army, Allied Army / Persona 3 FES Heartful Cry / M&L BIS The Grand Finale / Chrono Trigger Boss Battle 1 / DELTARUNE Hammer of Justice, SWORD, Rude Buster / FE3 Medeus, Shadow Dragon / Deltarune Guardian, Bmlack / Metroid Prime Phendrana Drifts / RS2 Avalon, Seat of the Empire / Suikoden-Gregminster Theme / Cave Story Moonsong / FE16 Paths that Will Never Cross / M&L Bowser's Inside Story The Grand Finale - SurfingKyogre
+FE4: Emperor Arvis, Neutral Army, Allied Army / Persona 3 FES Heartful Cry / M&L BIS The Grand Finale / Chrono Trigger Boss Battle 1 / DELTARUNE Hammer of Justice, SWORD, Rude Buster / FE3 Medeus, Shadow Dragon / Deltarune Guardian, Bmlack / Metroid Prime Phendrana Drifts / RS2 Avalon, Seat of the Empire / Suikoden-Gregminster Theme / Cave Story Moonsong / FE16 Paths that Will Never Cross / M&L Bowser's Inside Story The Grand Finale / Zoids Saga Legend of Arcadia Fuzors World Map - SurfingKyogre
 Faraway Voyage of 380.000 Kilometers - ZoraminaeFae
 FE4: When the Rush Comes - DrGreen3339
 Pokemon MD Explorers of Time+Space+Sky: Dialga's Fight to the Finish - GratedShtick
